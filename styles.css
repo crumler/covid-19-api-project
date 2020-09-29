@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.grid > div {
+    padding: 20px;
+}
+
+#newHeader {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 64px;
+    background-color: #0092b5;
+    border-bottom: 2px solid black;
+}
+
+#totalHeader {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 64px;
+    background-color: #0092b5;
+    border-bottom: 2px solid black;
+}
+
+body {
+    background-color: #00ceff;
+}
+
+#newNumbers {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 22px;
+    background-color: #6ce3ff;
+}
+
+#totalNumbers {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 22px;
+    background-color: #6ce3ff;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
